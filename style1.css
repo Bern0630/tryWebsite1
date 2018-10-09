@@ -1,0 +1,156 @@
+body{
+    background:#EDF2C5;
+  }
+
+.first{
+    display:flex;
+    float:center;
+    justify-content:space-between;
+    margin:53px auto 8px auto;
+    width: 940px;
+  }
+
+.title{
+    font-family:Arial Black;
+    font-size:44px;
+    color:#778A50;
+  }
+
+.icon{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:17px;
+  }
+
+.icon img{
+    margin:10px 5px;
+  }
+
+.icon .IG {
+    display:block;
+    border-right:solid #778A50 1px;
+    padding-right:10px;
+  }
+
+.icon .FB {
+    display:block;
+    border-right:solid #EDF2C5 1px;
+  }
+
+.icon .login li{
+    font-family:Arial Black;
+    display:flex;
+    list-style:none;
+    height: 20px;
+    border:1px solid #778A50;
+    border-radius:3px;
+    float:left;
+    margin:10px 5px 0px 5px;
+    padding:5px 5px 0px;
+    font-size:14px;
+    color:#778A50
+  }
+
+  .login a li:hover{
+    background-color: rgb(103, 138, 80);
+    color: #EDF2C5 ;
+  }
+
+.second{
+    display:flex;
+    background-color:#778A50;
+    margin:0px auto 0px auto;
+    width: 940px;
+  }
+
+.second li{
+    list-style:none;
+  }
+
+.second li a{
+    display:flex;
+    text-decoration: none;
+    font-family:Arial Black;
+    font-size:16px;
+    padding:16px 30px;
+    color:#EDF2C5;
+  }
+
+.second li a:hover{
+    background-color:rgb(210, 242, 197);
+    color:#778A50;
+  }
+
+.pic{
+    width: 940px;
+    margin:20px auto 30px auto;
+  }
+
+.third{
+    display: flex;
+    justify-content:space-between;
+    margin:0px auto 15px auto;
+    width: 940px;
+  }
+
+.third li{
+    height: 30px;
+    width: 445px;
+    display:flex;
+    list-style:none;
+    font-family:Arial Black;
+    font-size:16px;
+    padding:15px 30px;
+    background-color: #778A50;
+    color:#EDF2C5;
+  }
+
+.V{
+    margin-right:50px;
+  }
+
+.Veg{
+    display: flex;
+    flex-wrap:nowrap;
+    margin-top:15px;
+    margin-right:50px; 
+  }
+
+.fourth{
+    display: flex;
+    justify-content:space-between;
+    margin:0px auto 15px auto;
+    width: 940px;
+  }
+
+.fifth{
+    height: 140px;
+    width: 445px;
+    background-color: #F7FBDA;
+    color:#7D7D7D;
+    font-size: 13px;
+    padding: 0px 15px;
+    margin-top:15px;
+    margin-bottom: 15px;
+  }
+
+
+hr{
+    color:#7D7D7D;
+    border-width:1px;
+    margin:16px auto;
+  }
+
+.Vp1{
+    margin-right: 12px;
+  }
+
+footer{
+    text-align: center;
+    background-color: #778A50;
+    font-size: 18px;
+    color:#EDF2C5;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin:auto;
+  }
